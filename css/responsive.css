@@ -1,0 +1,77 @@
+/*-----/- large -/-----*/
+@media (min-width:992px) and (max-width:1199.99px){
+    #banner {
+        height: 665px;
+    }
+    #banner .banner-contant h1 {
+        font-size: 55px;
+        letter-spacing: 24px;
+    }
+    #about {
+        margin: 70px 0 70px;
+    }
+    #about .about_item {
+        padding: 41px;
+    }
+    #service {
+        padding: 60px 0 60px;
+    }
+    #my_work .work_info .overlay {
+        padding: 0px 6px;
+    }
+}
+
+/*-----/- medium -/-----*/
+@media (min-width:768px) and (max-width:991.99px){
+    #banner {
+        height: 600px;
+    }
+    #banner .banner-contant h4 {
+        font-size: 26px;
+    }
+    #banner .banner-contant h1 {
+        font-size: 50px;
+        letter-spacing: 15px;
+    }
+    #banner .banner-contant img {
+        margin: 45px auto;
+    }
+    #banner .banner-contant a {
+        padding: 13px 31px;
+    }
+    #about {
+        margin: 65px 0 65px;
+    }
+    .section_info h2 {
+        font-size: 44px;
+    }
+    .section_info p {
+        font-size: 12px;
+        line-height: 34px;
+        padding-top: 13px;
+    }
+    #about .items {
+        padding-top: 25px;
+    }
+    #about .about_item{
+        border-right: 1px solid #7e8287;
+        padding: 0px 98px;
+        margin-top: 50px;
+    }
+    #about .about_item:nth-child(2n){
+        border: none;
+    }
+    #service {
+        padding: 60px 0 60px;
+    }
+}
+
+/*-----/- small -/-----*/
+@media (min-width:576px) and (max-width:767.99px){
+
+}
+
+/*-----/- extra small -/-----*/
+@media (max-width:575.99px){
+
+}
